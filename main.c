@@ -3,8 +3,8 @@
 int main(void)
 {
     int n;
-    int i;
-    int sum = 0;
+    long long i;
+    long long sum = 0;
 
     scanf("%d", &n);
 
@@ -19,6 +19,6 @@ int main(void)
         sum += i;
     }
 
-    printf("%d", sum);
+    printf("%lld", sum);
     return 0;
 }
